@@ -1,0 +1,26 @@
+TASK 3: GEOSPATIAL ANALYSIS RESULTS
+
+1. Visualizations Generated:
+   - 'restaurant_locations.png': Scatter plot of Longitude vs Latitude showing global restaurant distribution.
+   - 'city_distribution.png': Bar chart showing the top 10 cities by restaurant count.
+   - 'restaurant_heatmap.html': An interactive heatmap showing density of restaurants globally.
+
+2. Geographical Distribution:
+   - The majority of restaurants are concentrated in specific clusters, primarily in India (New Delhi, Gurgaon, Noida).
+   - Top cities like New Delhi (5,473) and Gurgaon (1,118) dominate the dataset.
+
+3. Correlation between Location and Rating:
+   - Correlation Coefficients:
+     - Latitude vs Rating: 0.0005 (Virtually no global linear correlation)
+     - Longitude vs Rating: -0.1168 (Very weak negative correlation)
+   - Analysis: On a global scale, there is no strong linear relationship between coordinates and ratings. However, local analysis reveals significant differences.
+
+4. Local Rating Variances (Top 10 Cities by Volume):
+   - Some cities have much higher average ratings than others despite lower volumes:
+     - Lucknow: 4.20
+     - Guwahati: 4.19
+     - Ahmedabad: 4.16
+   - Compare to high-volume cities like:
+     - New Delhi: 2.44
+     - Noida: 2.04
+   - Insight: Higher concentration of restaurants in certain cities (like New Delhi/Noida) actually shows a lower average rating, likely due to a higher number of unrated (0.0) restaurants in those competitive markets.

@@ -1,0 +1,25 @@
+TASK 2: DESCRIPTIVE ANALYSIS RESULTS
+
+1. Statistical Measures for Numerical Columns:
+   - Average Cost for two: Mean=1199.21, StdDev=16121.18, Min=0, Max=800000
+   - Price range: Mean=1.80, StdDev=0.91, Min=1, Max=4
+   - Aggregate rating: Mean=2.67, StdDev=1.52, Min=0, Max=4.9
+   - Votes: Mean=156.91, StdDev=430.17, Min=0, Max=10934
+
+2. Categorical Variable Distributions:
+   - Country Code: 
+     - Top: Code 1 (8,652 restaurants, 90.59%)
+   - City:
+     - New Delhi: 5,473 (57.30%)
+     - Gurgaon: 1,118 (11.71%)
+     - Noida: 1,080 (11.31%)
+   - Cuisines (Individual Count):
+     - North Indian: 3,960
+     - Chinese: 2,735
+     - Fast Food: 1,986
+     - Mughlai: 995
+     - Italian: 764
+
+3. Top Highlights:
+   - City with the highest number of restaurants: New Delhi (5,473)
+   - Most frequent cuisine: North Indian (3,960 occurrences)

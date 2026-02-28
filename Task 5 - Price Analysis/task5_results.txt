@@ -1,0 +1,26 @@
+TASK 5: PRICE RANGE ANALYSIS RESULTS
+
+1. Most Common Price Range:
+   - The most common price range is 1 (Budget/Low-cost).
+   - Occurrences: 4,444 restaurants.
+
+2. Average Rating by Price Range:
+   - Price Range 1: 2.00
+   - Price Range 2: 2.94
+   - Price Range 3: 3.68
+   - Price Range 4: 3.82
+   - Insight: There is a clear positive correlation between price range and average rating. Higher-priced restaurants tend to have higher average ratings.
+
+3. Rating Color Analysis:
+   - The color that represents the highest average rating is "Dark Green" (Average Rating: 4.66).
+   - Full Color Breakdown (by average rating):
+     - Dark Green: 4.66
+     - Green: 4.17
+     - Yellow: 3.68
+     - Orange: 3.05
+     - Red: 2.30
+     - White: 0.00 (Unrated)
+
+4. Visualizations Generated:
+   - 'rating_by_price_range.png': Bar chart showing the increase in rating as price range increases.
+   - 'rating_by_color.png': Bar chart showing the average rating associated with each categorical color label.

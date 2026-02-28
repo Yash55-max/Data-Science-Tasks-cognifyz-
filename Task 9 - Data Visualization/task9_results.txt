@@ -1,0 +1,16 @@
+TASK 9: DATA VISUALIZATION RESULTS
+
+1. Distribution of Ratings:
+   - 'viz_rating_distribution.png': An asymmetric distribution with a large spike at 0.0 (Unrated) and a bell-shaped curve for the rated restaurants (concentrated between 2.5 and 4.0).
+   - 'viz_rating_categories.png': Visualizes the counts for categories like 'Average', 'Good', and 'Unrated', highlighting the high volume of average-rated establishments.
+
+2. Comparison Analysis:
+   - 'viz_city_rating_comparison.png': Compares the average ratings of the top 15 cities. It highlights that while New Delhi has the most restaurants, cities like Ahmedabad, Guwahati, and Lucknow have significantly higher quality perceptions among customers.
+
+3. Feature Relationships with Aggregate Rating:
+   - 'viz_votes_vs_rating.png': A scatter plot showing that higher-rated restaurants tend to have more votes. Lower-rated restaurants (0.0 - 2.0) rarely have high volumes of engagement.
+   - 'viz_price_vs_rating_box.png': A box plot clearly showing the upward trend of ratings as the price range increases from 1 to 4. Higher price tiers have higher medians and tighter interquartile ranges, indicating more consistent quality.
+   - 'viz_correlation_heatmap.png': A comprehensive heatmap showing the linear correlation between all numerical features. It confirms that 'Votes' (0.31) and 'Price range' (0.44) have the strongest positive correlation with 'Aggregate rating' among the raw features.
+
+4. Conclusion:
+   - The visualizations reinforce the findings from previous tasks: engagement (votes) and price tier are the primary drivers of rating distribution, and geographical location (city) significantly impacts the average customer experience.

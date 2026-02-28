@@ -1,0 +1,26 @@
+TASK 4: TABLE BOOKING AND ONLINE DELIVERY ANALYSIS RESULTS
+
+1. Feature Prevalence:
+   - Table Booking: 12.12% of restaurants offer table booking.
+   - Online Delivery: 25.66% of restaurants offer online delivery.
+
+2. Impact on Ratings:
+   - Restaurants WITH Table Booking: Average Rating = 3.44
+   - Restaurants WITHOUT Table Booking: Average Rating = 2.56
+   - Insight: On average, restaurants offering table booking have significantly higher ratings (+0.88 difference).
+
+3. Impact of Online Delivery on Ratings:
+   - Restaurants WITH Online Delivery: Average Rating = 3.25
+   - Restaurants WITHOUT Online Delivery: Average Rating = 2.47
+   - Insight: Offering online delivery also correlates with higher average ratings (+0.78 difference).
+
+4. Online Delivery Availability by Price Range:
+   - Price Range 1 (Lowest): 15.77%
+   - Price Range 2: 41.31% (Highest availability)
+   - Price Range 3: 29.19%
+   - Price Range 4 (Highest): 9.04% (Lowest availability)
+   - Insight: Online delivery is most common in mid-range restaurants (Price Range 2) and least common in premium/luxury restaurants (Price Range 4), which likely prioritize the in-person dining experience.
+
+5. Visualizations Generated:
+   - 'rating_vs_booking.png': Comparison of ratings for table booking availability.
+   - 'online_delivery_by_price.png': Percentage of online delivery across different price tiers.

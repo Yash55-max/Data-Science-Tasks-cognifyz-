@@ -1,0 +1,30 @@
+TASK 8: CUSTOMER PREFERENCE ANALYSIS RESULTS
+
+1. Relationship between Cuisine and Rating:
+   - Specific cuisines consistently receive higher average ratings compared to the global average.
+   - Niche and specialty cuisines (e.g., Sandwich, Steak, Sushi) tend to have higher aggregate ratings, often exceeding 3.90.
+
+2. Most Popular Cuisines (By Total Votes):
+   1. North Indian (596,214 votes)
+   2. Chinese (364,351 votes)
+   3. Italian (329,265 votes)
+   4. Continental (288,255 votes)
+   5. Fast Food (184,058 votes)
+   - Insight: North Indian is the dominant cuisine in terms of customer engagement and volume.
+
+3. Top Rated Cuisines (Filtered for Sample Size > 50):
+   - Some cuisines deliver consistently higher quality according to customers:
+     - Sandwich: 4.07
+     - Steak: 3.99
+     - Sushi: 3.97
+     - Mediterranean: 3.95
+     - Indian: 3.92
+   - Insight: While "North Indian" is the most popular by votes, specialized cuisines like "Sandwich" and "Steak" often boast higher average ratings, suggesting higher customer satisfaction in those categories.
+
+4. Customer Engagement vs Quality:
+   - There is a visible gap between what is "most common" (Fast Food, North Indian) and what is "highest rated" (Mediterranean, European, Steak).
+   - This suggests that specialty or refined dining categories are more likely to receive premium ratings.
+
+5. Visualizations Generated:
+   - 'cuisine_popularity_votes.png': Bar chart of the top 15 cuisines by total vote count.
+   - 'top_rated_cuisines.png': Bar chart of the top 15 highest-rated cuisines (minimum 50 restaurants).

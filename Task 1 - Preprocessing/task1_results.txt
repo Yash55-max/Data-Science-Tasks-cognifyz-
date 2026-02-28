@@ -1,0 +1,26 @@
+TASK 1: DATA EXPLORATION AND PREPROCESSING RESULTS
+
+1. Dataset Dimensions:
+   - Number of rows: 9,551
+   - Number of columns: 21
+
+2. Missing Values:
+   - Column 'Cuisines' had 9 missing values.
+   - All missing values were filled with "Unknown".
+
+3. Data Type Conversions:
+   - 'Has Table booking': Converted from 'Yes'/'No' to 1/0.
+   - 'Has Online delivery': Converted from 'Yes'/'No' to 1/0.
+   - Verified numerical formats for 'Aggregate rating' and 'Votes'.
+
+4. Target Variable Distribution ('Aggregate rating'):
+   - Mean: 2.666
+   - Median: 3.2
+   - Standard Deviation: 1.516
+   - Class Imbalance: 2,148 restaurants (22.49%) have a 0.0 rating (Unrated).
+   - Rating Category Counts:
+     - Average (2.5 - 3.4): 3,737
+     - Good (3.5 - 4.4): 3,179
+     - Unrated (0.0): 2,148
+     - Excellent (4.5 - 4.9): 301
+     - Poor (1.8 - 2.4): 186

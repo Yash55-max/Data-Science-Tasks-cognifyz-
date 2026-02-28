@@ -1,0 +1,26 @@
+TASK 7: PREDICTIVE MODELING RESULTS
+
+1. Model Comparison:
+   - Linear Regression: MSE=0.5255, MAE=0.5925, R2=0.7691
+   - Decision Tree: MSE=0.1919, MAE=0.2840, R2=0.9157
+   - Random Forest: MSE=0.0917, MAE=0.1985, R2=0.9597
+
+2. Best Performing Model:
+   - The Random Forest Regressor is the best model, explaining 95.97% of the variance in Aggregate Rating (R2 = 0.9597).
+   - The low Mean Squared Error (0.0917) indicates very accurate predictions.
+
+3. Feature Importance (Random Forest):
+   - Votes: 0.9467 (Highest Impact)
+   - Longitude: 0.0152
+   - Latitude: 0.0119
+   - Address Length: 0.0067
+   - Average Cost for two: 0.0061
+   - Insight: The number of 'Votes' is the dominant predictor of the aggregate rating. This suggests that as more customers engage and vote, the rating stabilizes or follows a strong predictable pattern.
+
+4. Model Evaluation:
+   - The Actual vs Predicted plot shows that the Random Forest model captures the rating patterns exceptionally well across all rating levels.
+
+5. Visualizations Generated:
+   - 'model_comparison_r2.png': Shows the R2 comparison across the three algorithms.
+   - 'feature_importance.png': Visualizes which features contribute most to the prediction.
+   - 'best_model_performance.png': Scatter plot of Actual vs Predicted ratings.

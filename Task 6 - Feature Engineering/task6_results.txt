@@ -1,0 +1,21 @@
+TASK 6: FEATURE ENGINEERING RESULTS
+
+1. Feature Extraction:
+   - Created 'Restaurant Name Length': Captures the complexity or branding of the restaurant name (Mean: 15.16 characters).
+   - Created 'Address Length': Captures the level of detail in the location description (Mean: 53.54 characters).
+   - Created 'Cuisine Count': Counted the number of cuisines each restaurant offers (Range: 0 to 8).
+
+2. Categorical Encoding:
+   - 'Has Table Booking': Encoded as 1 (Yes) and 0 (No).
+   - 'Has Online Delivery': Encoded as 1 (Yes) and 0 (No).
+   - 'Is delivering now': Encoded as 1 (Yes) and 0 (No).
+
+3. Additional Derived Features:
+   - 'Cost per Person': Derived from 'Average Cost for two' / 2. This provides a normalized baseline for price comparisons.
+
+4. Impact & Utility:
+   - These new features provide numerical representations of previously text-based information, making them suitable for correlation analysis and input into machine learning models.
+   - For example, 'Cuisine Count' can be used to see if variety in the menu correlates with higher ratings.
+
+5. Final Dataset Generated:
+   - 'Final_Engineered_Dataset.csv': Contains the original data plus all newly engineered features.
